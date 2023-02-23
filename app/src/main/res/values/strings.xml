@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Broccoli &amp; Co.</string>
+
+    <string name="msg_app_is_invite_only">This app is currently invitation-only, so to request access, simply enrol with your email ID.</string>
+    <string name="request_access">Request Access</string>
+
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="re_enter_email">Confirm Email</string>
+    <string name="send_invite">Send</string>
+    <string name="error_email_mismatch">Email and Confirm Email do not match</string>
+    <string name="error_invalid_email">Email is invalid</string>
+    <string name="error_invalid_full_name">Name should have at least 3 characters.</string>
+
+    <string name="msg_cancel_invite">Please look for an invitation email in your inbox. Also, you can always decline the invitation if your plans have changed.</string>
+    <string name="btn_cancel_access">Cancel Access</string>
+
+    <string name="sure_cancel_the_invite">Are you sure you want to cancel the invitation?</string>
+    <string name="yes">yes</string>
+    <string name="congratulations">Congratulations</string>
+
+    <string name="error_unexpected_message">Unexpected error occurred. We are working on it.</string>
+    <string name="error_client_unexpected_message">Something technically is wrong. We are working on it.</string>
+    <string name="error_server_unexpected_message">Oops! Something went wrong on the server. We are working on it.</string>
+
+</resources>

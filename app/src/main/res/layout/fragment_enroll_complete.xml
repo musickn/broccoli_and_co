@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+
+  <Button
+    android:id="@+id/btnCancelAccess"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#aab591"
+    android:text="@string/btn_cancel_access" />
+
+  <TextView
+    android:id="@+id/tvSubheading"
+    style="@style/TextAppearance.Material3.BodyLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/msg_cancel_invite"
+    android:textAlignment="center" />
+
+  <TextView
+    android:id="@+id/tvHeading"
+    style="@style/TextAppearance.Material3.DisplaySmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/congratulations" />
+
+  <androidx.constraintlayout.helper.widget.Flow
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/default_margin"
+    app:constraint_referenced_ids="tvHeading,tvSubheading,btnCancelAccess"
+    app:flow_maxElementsWrap="1"
+    app:flow_verticalGap="@dimen/default_margin"
+    app:flow_verticalStyle="packed"
+    app:flow_wrapMode="chain"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+
+  <com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/ivLottie"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:layout_constraintBottom_toTopOf="@id/tvHeading"
+    app:layout_constraintTop_toTopOf="parent"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    app:lottie_rawRes="@raw/congrats" />
+</androidx.constraintlayout.widget.ConstraintLayout>
